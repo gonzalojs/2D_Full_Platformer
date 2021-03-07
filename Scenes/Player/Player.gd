@@ -4,10 +4,10 @@ onready var sprite = $Sprite
 onready var animation = $AnimationPlayer
 
 const UP = Vector2(0, -1)
-const GRAVITY = 35
-const MAXFALLSPEED = 200
+const GRAVITY = 40
+const MAXFALLSPEED = 500
 const MAXSPEED = 200
-const JUMPFORCE = 420
+const JUMPFORCE = 450
 const ACCEL = 50
 
 var motion = Vector2()
